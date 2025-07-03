@@ -309,4 +309,21 @@ Actual: 1  [ 2167 26154]  ← False Negatives: 2,167, True Positives: 26,154
 | **Performance** | 96% Accuracy, 0.97 AUC |
 | **Distortion Types** | Sunny, Blurry, Resize, Rainy, Low-light |
 
+
+## 🧭 Model Weights
+
+> **Note:** No custom-trained model weights are included in this repository.
+
+This solution **does not train any neural network from scratch**. It relies entirely on the **pre-trained ArcFace model (`buffalo_l`)** from the [InsightFace](https://github.com/deepinsight/insightface) library.
+
+✔️ These weights are:
+- **Publicly available** in the InsightFace model zoo.
+- **Automatically downloaded** when you run the code—no manual setup required.
+
+If desired, you can also find and download them manually here:
+
+- [InsightFace Model Zoo](https://github.com/deepinsight/insightface/tree/master/model_zoo)
+  
 This comprehensive face matching system successfully addresses the multi-class recognition challenge with distorted inputs, demonstrating industry-standard performance and robust evaluation methodology.
+---
+
